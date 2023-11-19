@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">Quiz</a>
+
+            <nav class="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Math Quiz</h1>
+                    <div class="quiz-header">
+                        <span>Quiz Website</span>
+                        <span class="header-score"></span>
+                    </div>
+
+                    <h2 class="question-text"></h2>
+
+                    <div class="option-list">
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">
+
+                        </span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Quiz result !</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value"></span>
+                        </div>
+
+                        <span class="score-text"></span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Go To Home</button>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="home">
+                <div class="home-content">
+                    <h1>Quiz Website</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui necessitatibus dolore maxime
+                        consequuntur tenetur. Cupiditate!</p>
+                    <div class="quiz-choice">
+                        <button class="start-btn mathBtn">Math Quiz</button>
+                        <button class="start-btn francaisBtn">Français Quiz</button>
+                        <button class="start-btn anglaisBtn">Anglais Quiz</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Quiz Guide</h2>
+        <div class="quiz-guide">
+            <span class="info">1. Lisez bien la question</span>
+            <span class="info">2. Lisez bien les réponses</span>
+            <span class="info">3. Choisissez bien votre réponse</span>
+            <span class="info">4. Vous n'avez qu'un seul essai</span>
+            <span class="info">5. Amusez-vous !</span>
+        </div>
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="question.js"></script>
+</body>
+
+</html>
